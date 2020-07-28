@@ -1,13 +1,17 @@
+
 import Vue from 'vue'
 import VueResource from 'vue-resource'
-import App from './App.vue'
+import index from './index.vue'
+import 'lib-flexible'
 import './lib/dsbridge.js'
 
 Vue.use(VueResource)
 
-const app = new Vue({
-  ...App
-})
+Vue.config.productionTip = false
 
-app.$mount('#app');
+new Vue({
+  el: '#app',
+  components: { index },
+  template: '<index/>'
+})
 

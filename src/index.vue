@@ -6,7 +6,7 @@
 </template>
 
 <script>
-
+import Vue from 'vue'
 import parseToken from './lib/parseToken.js';
 import fetchAccessToken from './lib/fetchAccessToken';
 import track from './lib/track.js';
@@ -14,7 +14,7 @@ import trackHref from './lib/trackHref.js';
 import Toast from './commponents/Toast';
 
 export default {
-  name: 'app',
+  name: 'index',
   data(){
     return {
     }
