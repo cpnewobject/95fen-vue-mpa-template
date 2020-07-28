@@ -1,6 +1,6 @@
-# singlevue
+# mpa vue
 
-> single page vue project
+> mpa vue project
 
 ## Build Setup
 
